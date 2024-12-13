@@ -90,7 +90,7 @@ additionalPrometheusRulesMap:
         sum(increase(kube_pod_container_status_restarts_total{namespace!="kube-system",pod_template_hash=""}[1m])) by (pod,namespace,container) > 0 
       for: 0m 
       labels: 
-      severity: critical            
+        severity: critical            
 prometheus:
   enabled: true
   ingress:

@@ -35,7 +35,7 @@ alertmanager:
       - name: "slack-alerts"
         slack_configs:
           # checkov:skip=CKV_SECRET_14 Slack Webhook URL
-        - api_url: 'https://hooks.slack.com/services/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'
+        - api_url: '<url>'
           channel: '#prometheus-alerts'
           send_resolved: true
           title: '[{{ .Status | toUpper }}{{ if eq .Status "firing" }}:{{ .Alerts.Firing | len }}{{ end }}] Production Monitoring Event Notification'

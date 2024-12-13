@@ -18,13 +18,10 @@ In this lesson, you'll integrate an AWS API Gateway with the Network Load Balanc
 In this lesson, you will learn how to install ArgoCD using a Helm chart and secure ArgoCD access with Amazon Cognito.
 ![API](Lesson4/argo-png-latest.png)
 
-### Lesson 5: EKS & NGINX Load Balancer Monitor with Prometheus, Grafana, and Alerts(_IN_PROGRESS_)
+### Lesson 5: EKS & NGINX Load Balancer Monitor with Prometheus, Grafana, and Alerts
 In this lesson, you will learn how to Monitor EKS and NGINX with Prometheus, Grafana Visualizations, and Alerts
 ![MONITORING](Lesson5/monitoring.png)
 ## Cluster and Disk Monitoring
 ![DASHBOARD1](Lesson5/cluster_disk.png)
 ## Prometheus Alert dashboard
 ![DASHBOARD2](Lesson5/prometheus_alert.png)
-
-### Lesson 6: Finops- Scale EKS with Karpenter(_IN_PROGRESS_)
-## tbd

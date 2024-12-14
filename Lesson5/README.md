@@ -16,6 +16,13 @@ Before you begin, ensure you have the following installed:
 - AWS CLI configured with appropriate credentials
 - [kubectl](https://kubernetes.io/docs/tasks/tools/) for interacting with your EKS cluster
 
+To log in grafana:
+Get the initial password for the admin user:
+
+```
+kubectl get secret kube-prometheus-stack-grafana -n monitoring -o jsonpath="{.data.admin-password}" | base64 --decode
+```
+
 ##  Kubernetes YAML configuration file for Prometheus
 ```
 alertmanager:

@@ -1,4 +1,4 @@
-### Lesson 4:  EKS & NGINX Load Balancer Monitor with Prometheus, Grafana, and Alerts
+### Lesson 5:  EKS & NGINX Load Balancer Monitor with Prometheus, Grafana, and Alerts
 
 In this lesson, you will learn how tosetup EKS & NGINX Load Balancer Monitor with Prometheus, Grafana, and Alerts
 ![MONITORING](monitoring.png)

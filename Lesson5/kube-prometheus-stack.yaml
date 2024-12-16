@@ -34,7 +34,6 @@ alertmanager:
       - name: "null"
       - name: "slack-alerts"
         slack_configs:
-          # checkov:skip=CKV_SECRET_14 Slack Webhook URL
         - api_url: '<url>'
           channel: '#prometheus-alerts'
           send_resolved: true

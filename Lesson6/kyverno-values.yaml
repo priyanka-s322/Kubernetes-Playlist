@@ -1,4 +1,3 @@
-
 admissionController:
   replicas: 2
   rbac:
@@ -12,7 +11,6 @@ admissionController:
         - apiGroups: ['*']
           resources: ['*']
           verbs: ['*']
-
 backgroundController:
   replicas: 2
   rbac:
@@ -26,7 +24,6 @@ backgroundController:
         - apiGroups: ['*']
           resources: ['*']
           verbs: ['*']
-# note: this apparently is cpu-intensive
 reportsController:
   replicas: 2
   rbac:

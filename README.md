@@ -25,3 +25,6 @@ In this lesson, you will learn how to Monitor EKS and NGINX with Prometheus, Gra
 ![DASHBOARD1](Lesson5/cluster_disk.png)
 ## Prometheus Alert dashboard
 ![DASHBOARD2](Lesson5/prometheus_alert.png)
+
+### Lesson 6: Automated Kubernetes Governance with Kyverno and Slack Alerts
+Learn how to implement policy-as-code in Kubernetes using Kyverno, and integrate real-time policy violation alerts with Slack using Policy Reporter.

@@ -1,0 +1,17 @@
+metrics:
+  enabled: true
+ui:
+  enabled: true
+kyverno-plugin:
+  enabled: true 
+target:
+  slack:
+    minimumPriority: "info"
+    skipExistingOnStartup: true
+    channels:
+    - webhook: "https://hooks.slack.com/services/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"
+      filter:
+        namespaces:
+          include: ["codedevops","production"]  
+        policies:
+          include: ["prevent-critical-resource-deletion","require-label"]

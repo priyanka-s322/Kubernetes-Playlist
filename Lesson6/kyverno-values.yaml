@@ -1,0 +1,42 @@
+
+admissionController:
+  replicas: 2
+  rbac:
+    coreClusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']
+    clusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']
+
+backgroundController:
+  replicas: 2
+  rbac:
+    coreClusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']
+    clusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']
+# note: this apparently is cpu-intensive
+reportsController:
+  replicas: 2
+  rbac:
+    coreClusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']
+    clusterRole:
+      extraResources:
+        - apiGroups: ['*']
+          resources: ['*']
+          verbs: ['*']

@@ -28,3 +28,4 @@ In this lesson, you will learn how to Monitor EKS and NGINX with Prometheus, Gra
 
 ### Lesson 6: Automated Kubernetes Governance with Kyverno and Slack Alerts
 Learn how to implement policy-as-code in Kubernetes using Kyverno, and integrate real-time policy violation alerts with Slack using Policy Reporter.
+![SECURITY](Lesson6/kyverno.png)

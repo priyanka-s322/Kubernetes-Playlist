@@ -1,6 +1,7 @@
 # Lesson 6: Write, Catch, Alert — Kyverno for Production Clusters
 
 This lesson demonstrates how to use [Kyverno](https://kyverno.io/) in production Kubernetes clusters to enforce policies, catch violations, and set up alerting for compliance and security.
+![SECURITY](kyverno.png)
 
 ## Objectives
 - Install Kyverno with custom RBAC and controller settings

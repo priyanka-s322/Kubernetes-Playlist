@@ -1,0 +1,27 @@
+apiVersion: kyverno.io/v1
+kind: ClusterPolicy
+metadata:
+  name: prevent-critical-resource-deletion
+spec:
+  validationFailureAction: Enforce
+  rules:
+    - name: block-delete-critical-resources
+      match:
+        resources:
+          kinds:
+            - ConfigMap
+            - Secret
+            - Deployment
+            - Service
+            - Ingress
+            - PersistentVolumeClaim
+          namespaces:
+            - production
+      preconditions:
+        all:
+          - key: "{{request.operation}}"
+            operator: Equals
+            value: DELETE
+      validate:
+        message: "⛔️ Deletion of critical resources is not allowed in production namespace."
+        deny: {}

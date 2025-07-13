@@ -9,7 +9,7 @@ target:
     minimumPriority: "info"
     skipExistingOnStartup: true
     channels:
-    - webhook: "https://hooks.slack.com/services/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"
+    - webhook: "https://hooks.slack.com/services/T06UURFUMEC/B095C2RA6PM/P1s7wROpWWd......"
       filter:
         namespaces:
           include: ["codedevops","production"]  

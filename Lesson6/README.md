@@ -1,4 +1,4 @@
-# Lesson 6: Write, Catch, Alert — Kyverno for Production Clusters
+# Lesson 6: Automated Kubernetes Governance with Kyverno and Slack Alerts
 
 This lesson demonstrates how to use [Kyverno](https://kyverno.io/) in production Kubernetes clusters to enforce policies, catch violations, and set up alerting for compliance and security.
 ![SECURITY](kyverno.png)
